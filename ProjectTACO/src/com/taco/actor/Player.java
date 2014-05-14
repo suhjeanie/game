@@ -36,7 +36,7 @@ public class Player extends Actor implements KeyListener, MouseMotionListener {
 
 	public Player(double x, double y, double w, double h) {
 		super(x, y, w, h);
-		health = 150;
+		health = 20;
 		oHealth = health;
 		speed = 8.5;
 
